@@ -1,0 +1,20 @@
+{
+  "name": "gestor-de-leads",
+  "version": "1.0.0",
+  "description": "Gestor de leads com disparo via WhatsApp Web",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cookie-parser": "^1.4.6",
+    "pg": "^8.12.0",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "qrcode": "^1.5.4",
+    "csv-parse": "^5.5.6",
+    "multer": "^1.4.5-lts.1",
+    "pino": "^9.3.2"
+  },
+  "overrides": {
+    "libsignal": "npm:libsignal@6.0.0"
+  }
+}

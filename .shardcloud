@@ -1,0 +1,7 @@
+DISPLAY_NAME=Gestor de Leads
+MAIN=server.js
+MEMORY=512
+VERSION=26.12.1
+LANGUAGE=node
+SUBDOMAIN=gestorleads
+APPID=a47eaa29-6431-4c10-b766-e8fd6d060ed0
